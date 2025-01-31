@@ -400,6 +400,7 @@ th:last-child{
     font-weight: bold;
     padding: 0 10px;
     color: #555;
+    margin: auto;
     cursor: pointer;
     width: 100px;
     display: inline-block;
@@ -433,6 +434,7 @@ form .btn:focus{
 #LoginForm{
     left: -300px;
 }
+
 #RegForm{
     left: 0;
 }

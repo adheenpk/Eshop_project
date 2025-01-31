@@ -1,5 +1,4 @@
 from django.shortcuts import render
-
 from Eshop_app.models import shop
 
 
@@ -13,4 +12,12 @@ def demo(request):
 def detail(request,product_id):
     products=shop.objects.get(id=product_id)
     return render(request,'detail.html',{'product':products})
+
+
+
+
+
+
+
+
 
